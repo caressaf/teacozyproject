@@ -1,0 +1,36 @@
+
+*{
+    font-family: Helvetica;
+}
+
+
+.breadcrumb{
+    text-align: right;
+    display: inline;
+    justify-content: flex-end;
+    padding: none;
+    display: flex;
+    font-size: 20px;
+
+}
+
+.breadcrumb li{
+    display: inline-block;
+    margin-right:10px;
+}
+
+.breadcrumb a{
+    text-decoration: underline;
+    float: right;
+    color: seashell;
+}
+
+.breadcrumb a:hover{
+    text-decoration: none;
+    float: right;
+    color: red;
+}
+
+img{
+    opacity: 0.9;
+}

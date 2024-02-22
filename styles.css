@@ -1,0 +1,183 @@
+*{
+    color:seashell;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    justify-content: left;
+    width: 200px;
+    height: 200px;
+   
+}
+
+.mission{
+  background-image: url(mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: seashell;
+  align-items: stretch;
+
+}
+
+.mission h2 {
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.mission h4 {
+    background-color: black;
+    text-align: center;
+    margin-top: 0;
+}
+
+.everythingbelowheader{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.tea {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.image_section{
+    display: inline-block;
+}
+.teaHead{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+
+
+
+.blitzTea, .spicedRum, .donuts, .myrtle, .bedford{
+    color:seashell;
+
+}
+
+
+.teaphoto{
+    height: 200px;
+    width: 300px;
+
+}
+
+.locations{
+  background-image: url(locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.panel{
+    background-color: black;
+    opacity: 1;
+}
+
+.locationTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.location-section{
+    margin: 0 auto;
+}
+.panel{
+    display: inline-block;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+#downtown{
+    flex-shrink: 1;
+}
+
+#bayside{
+    flex-shrink: 2
+}
+
+#oakdale{
+    flex-shrink: 1;
+}
+
+.panel h3{
+ text-align: center;
+}
+
+.teaCozy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.teaCozy h2{
+    flex-shrink: 0;
+}
+
+.teaCozy h5{
+    flex-shrink: 1;
+}
+
+h5{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+footer{
+    margin-left: 20px;
+}
+
+h6{
+    margin: 0;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
